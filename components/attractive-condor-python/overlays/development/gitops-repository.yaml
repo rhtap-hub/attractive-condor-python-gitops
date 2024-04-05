@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: attractive-condor-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/attractive-condor-python-gitops
